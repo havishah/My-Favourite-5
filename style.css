@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background: linear-gradient(#4dff00 0%, #ff0000 100%);
+}
+
+H1 {
+    text-shadow: 2px 2px #0af6fa;
+    font-size: 20px font-family: 'Bebas Neue', cursive;
+}
+
+img {
+    Border-radius: 50%;
+}
+
+p {
+    color: #0afa6a;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#about {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.link:hover {
+    background-color: dodgerblue
+}
+
+.menu {
+    font-family: 'Bebas Neue', cursive;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.link {
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+#havi{
+     text-shadow: none !important;
+    text-decoration: underline !important;
+    color: red !important;
+}
+
+#contact {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+}
